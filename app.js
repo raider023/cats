@@ -1,9 +1,6 @@
 (() => {
     class RandomCat {
         constructor(selector, btnName) {
-            /**
-             *
-             */
             this.selector = selector;
             this.btnName = btnName;
             this.element = document.querySelector(this.selector);
